@@ -1,0 +1,33 @@
+:root{
+--main-color: #33658A;
+--complementary: #758E4F;
+}
+head{
+
+}
+body{
+background-color: var(--main-color)
+}
+header{
+
+}
+.kontainer {
+margin: auto;
+}
+
+h1{
+
+}
+button{
+
+}
+h2{
+
+}
+input{
+height: 70px;
+width: 600px;
+display: grid;
+margin: auto;
+
+}
