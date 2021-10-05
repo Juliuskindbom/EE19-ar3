@@ -10,15 +10,24 @@
 <body>
     <div class="kontainer">
         <h1 class="display-4">Gästboken</h1>
-        <form class="kol2" action="backend.php" method="POST">
-            <label>Ange rubrik</label>
-            <input type="text" name="rubrik" required>
-            <label>Ange meddelande</label>
-            <textarea name="meddelande" required></textarea>
-            <label>Ange ditt namn</label>
-            <input type="text" name="namn" required>
-            <button class="primary">Spara</button>
-        </form>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="gastbok.php">Skriva</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lasa.php">Läsa</a>
+            </li>
+        </ul>
+        <?php
+        // Filnamnet
+        $filnamn = "gastbok.txt";
+
+        // Läsa in all text
+        $texten = file_get_contents($filnamn);
+
+        // Skriver ut allt
+        echo $texten;
+        ?>
     </div>
 </body>
 </html>
