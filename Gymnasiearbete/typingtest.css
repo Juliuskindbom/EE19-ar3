@@ -11,20 +11,31 @@ background-color: var(--main-color)
 .kontainer {
 margin: auto;
 }
-
 h1{
-
+font-size: 50px;
+display: grid;
 }
 button{
-
+display: grid;
+width: 100px;
+height: 20px;
+margin-top: 5px;
 }
 h2{
 
 }
 input{
-height: 70px;
+height: 60px;
 width: 600px;
-display: grid;
 margin: auto;
-
+margin-top: 30px;
+font-size: 35px;
+display: block;
+}
+.output{
+margin: auto;
+height: 120px;
+width: 600px;
+font-size: 35px;
+background-color: whitesmoke;
 }
