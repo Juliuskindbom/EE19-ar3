@@ -1,0 +1,17 @@
+body{
+
+}
+.test{
+    display: grid;
+    grid-template-columns: 120px 120px 120px ;
+    grid-template-rows: 120px 120px 120px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    display: inline-grid;
+    background-color: aqua;
+    border-color: black;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,18 @@
+head{
+
+}
+body{
+
+}
+h1{
+border-color: #ffffff;
+}
+button{
+    background-color: rgb(57, 116, 165);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: black;
+    font-size: 15px;
+}
